@@ -35,6 +35,12 @@ HEAD:
     - localhost.ptlogin2.qq.com
 TEST_URL: https://www.gstatic.com/generate_204
 RULESET:
+- - 🛠️ 自定义直连规则
+  - https://raw.githubusercontent.com/adjaisd/SubConv/refs/heads/main/ruleset/CustomDirect.list
+- - 🛠️ 自定义代理规则
+  - https://raw.githubusercontent.com/adjaisd/SubConv/refs/heads/main/ruleset/CustomProxy.list
+- - 🛠️ 自定义拒绝规则
+  - https://raw.githubusercontent.com/adjaisd/SubConv/refs/heads/main/ruleset/CustomReject.list
 - - 🤖 ChatBot
   - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/Ruleset/OpenAi.list
 - - 🤖 ChatBot
@@ -133,6 +139,15 @@ CUSTOM_PROXY_GROUP:
   type: load-balance
   rule: false
   regex: 🇭🇰|HK|Hong|Kong|HGC|WTT|CMI|港
+- name: 🛠️ 自定义直连规则
+  type: select
+  prior: DIRECT
+- name: 🛠️ 自定义代理规则
+  type: select
+  prior: PROXY
+- name: 🛠️ 自定义拒绝规则
+  type: select
+  prior: REJECT
 - name: 🤖 ChatBot
   type: select
   prior: PROXY
