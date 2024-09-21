@@ -1,0 +1,5 @@
+# 内容：CustomDirect
+# 自定义直连规则
+DOMAIN-KEYWORD,jetbrains
+DOMAIN-SUFFIX,ubuntu.com
+PROCESS-NAME,Thunder.exe
