@@ -36,11 +36,11 @@ HEAD:
 TEST_URL: https://www.gstatic.com/generate_204
 RULESET:
 - - 🛠️ 自定义直连规则
-  - https://raw.githubusercontent.com/adjaisd/SubConv/refs/heads/main/ruleset/CustomDirect.list
+  - https://raw.githubusercontent.com/adjaisd/SubConv/refs/heads/custom-ruleset/ruleset/CustomDirect.list
 - - 🛠️ 自定义代理规则
-  - https://raw.githubusercontent.com/adjaisd/SubConv/refs/heads/main/ruleset/CustomProxy.list
+  - https://raw.githubusercontent.com/adjaisd/SubConv/refs/heads/custom-ruleset/ruleset/CustomProxy.list
 - - 🛠️ 自定义拒绝规则
-  - https://raw.githubusercontent.com/adjaisd/SubConv/refs/heads/main/ruleset/CustomReject.list
+  - https://raw.githubusercontent.com/adjaisd/SubConv/refs/heads/custom-ruleset/ruleset/CustomReject.list
 - - 🤖 ChatBot
   - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/Ruleset/OpenAi.list
 - - 🤖 ChatBot
